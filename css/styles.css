@@ -8,6 +8,7 @@
 body {
   font-family: var(--main-font);
   color: var(--text-color);
+  font-weight: 700;
   letter-spacing: 0.03em;
   font-size: 14px;
 }
@@ -22,7 +23,6 @@ body {
 /* ----------------HEADER------------- */
 .web {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
@@ -30,7 +30,6 @@ body {
 
 .studio {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #000000;
@@ -77,7 +76,6 @@ body {
 
 .hero-btn {
   font-family: 'Roboto', sans-serif;
-  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
@@ -89,7 +87,6 @@ body {
 /* ----------------ADVENTAGE------------- */
 
 .adventage-title {
-  font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
   color: var(--title-color);
@@ -102,7 +99,6 @@ body {
 /* ----------------ACTIVITY------------- */
 .activity-title,
 .team-title {
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
   color: var(--title-color);
@@ -127,7 +123,6 @@ body {
 .footer-web,
 .footer-studio {
   font-family: 'Raleway', sans-serif;
-  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   color: #2196f3;
@@ -171,7 +166,6 @@ body {
 }
 
 .project-title {
-  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
