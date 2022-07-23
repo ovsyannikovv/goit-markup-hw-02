@@ -147,15 +147,32 @@ font-weight: 500;
 
 /* ----------------PORTFOLIO------------- */
 
-.pproject-btn-item{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.62;
-    color: #212121;
+.project-btn{
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        letter-spacing: 0.03em;
+        color: #212121;
 }
 
-.project-btn :hover,
-.project-btn:focus{
+.project-btn-item :hover,
+.project-btn-item :focus{
     background-color:  #2196F3;
     color: #FFFFFF;
+}
+
+.project-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2.0;  
+        letter-spacing: 0.06em;
+        color: #212121;
+}
+
+.project-text{
+        font-size: 16px;
+        line-height: 1.88;
+        color: #757575;
 }
