@@ -8,7 +8,7 @@
 body {
   font-family: var(--main-font);
   color: var(--text-color);
-  font-weight: 700;
+
   letter-spacing: 0.03em;
   font-size: 14px;
 }
@@ -88,6 +88,7 @@ body {
 
 .adventage-title {
   line-height: 1.14;
+  font-weight: 700;
   text-transform: uppercase;
   color: var(--title-color);
 }
@@ -97,9 +98,17 @@ body {
 }
 
 /* ----------------ACTIVITY------------- */
-.activity-title,
+.activity-title {
+  font-size: 36px;
+  line-height: 1.16;
+  font-weight: 700;
+  color: var(--title-color);
+}
+
+/* ----------------TEAM------------- */
 .team-title {
   font-size: 36px;
+  font-weight: 700;
   line-height: 1.16;
   color: var(--title-color);
 }
@@ -167,6 +176,7 @@ body {
 
 .project-title {
   font-size: 18px;
+  font-weight: 700;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--title-color);
