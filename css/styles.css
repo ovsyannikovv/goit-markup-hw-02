@@ -1,15 +1,16 @@
 :root {
   --accent-color: #2196f3;
   --title-color: #212121;
-  --text-color: #757575;
+  --main-text-color: #757575;
+  --btn-background-color: #2196f3;
+  --background-color: #2f303a;
+  --btn-accent-color: #ffffff;
   --main-font: 'Roboto', sans-serif;
 }
 
 body {
   font-family: var(--main-font);
   color: var(--text-color);
-
-  letter-spacing: 0.03em;
   font-size: 14px;
 }
 
@@ -20,17 +21,32 @@ body {
 .link {
   text-decoration: none;
 }
+
+.visually-hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  margin: -1px;
+}
 /* ----------------HEADER------------- */
 .web {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .studio {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
   color: #000000;
 }
@@ -39,7 +55,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--title-color);
 }
 .header-link:hover,
 .header-link:focus {
@@ -54,7 +70,7 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--main-text-color);
 }
 .header-contact:hover,
 .header-contact:focus {
@@ -63,7 +79,7 @@ body {
 
 /* ----------------HERO------------- */
 .hero {
-  background-color: #2f303a;
+  background-color: var(--background-color);
 }
 .hero-title {
   font-weight: 900;
@@ -71,7 +87,7 @@ body {
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--btn-accent-color);
 }
 
 .hero-btn {
@@ -79,14 +95,16 @@ body {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--btn-accent-color);
   cursor: pointer;
-  background: #2196f3;
+  background: var(--btn-background-color);
 }
 
 /* ----------------ADVENTAGE------------- */
 
 .adventage-title {
+  font-size: 14px;
+  letter-spacing: 0.03em;
   line-height: 1.14;
   font-weight: 700;
   text-transform: uppercase;
@@ -95,11 +113,14 @@ body {
 
 .adventage-text {
   line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
 }
 
 /* ----------------ACTIVITY------------- */
 .activity-title {
   font-size: 36px;
+  letter-spacing: 0.03em;
   line-height: 1.16;
   font-weight: 700;
   color: var(--title-color);
@@ -108,6 +129,7 @@ body {
 /* ----------------TEAM------------- */
 .team-title {
   font-size: 36px;
+  letter-spacing: 0.03em;
   font-weight: 700;
   line-height: 1.16;
   color: var(--title-color);
@@ -116,37 +138,42 @@ body {
 .team-after-title {
   font-weight: 500;
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.18;
   color: var(--title-color);
 }
 
 .team-text {
   font-size: 16px;
+  letter-spacing: 0.03em;
   line-height: 1.18;
 }
 
 /* ----------------FOOTER------------- */
 .footer {
-  background: #2f303a;
+  background: var(--background-color);
 }
 .footer-web,
 .footer-studio {
   font-family: 'Raleway', sans-serif;
   font-size: 26px;
+  letter-spacing: 0.03em;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer-studio {
-  color: #ffffff;
+  color: var(--btn-accent-color);
 }
 .footer-link-address {
   line-height: 1.71;
+  letter-spacing: 0.03em;
   font-style: normal;
-  color: #ffffff;
+  color: var(--btn-accent-color);
 }
 .footer-link {
   line-height: 1.71;
+  letter-spacing: 0.03em;
   font-style: normal;
   color: rgba(255, 255, 255, 0.6);
 }
@@ -168,10 +195,10 @@ body {
   color: var(--title-color);
 }
 
-.project-btn-item :hover,
-.project-btn-item :focus {
-  background-color: #2196f3;
-  color: #ffffff;
+.project-btn:hover,
+.project-btn:focus {
+  background-color: var(--btn-background-color);
+  color: var(--btn-accent-color);
 }
 
 .project-title {
@@ -184,5 +211,7 @@ body {
 
 .project-text {
   font-size: 16px;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
   line-height: 1.88;
 }
